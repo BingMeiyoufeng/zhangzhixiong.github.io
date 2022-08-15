@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<title>zhangzhixiong_blog</title>
+	<script type="text/javascript">
+		function myrefresh(){
+			window.location.reload();
+		}
+		setTimeout('myrefresh()',100000);
+	
+	</script>
+	
+<style type="text/css">
+	.main1{
+		width:1080px;
+		height:1920px;
+		background-color:white;
+	}
+	.header{
+		width:100%;
+		height:5%;
+		background-color:blue;
+	}
+		.title_div{
+			width:100%;
+			height:70%;
+			background-color:gray;
+		}
+		.title_font{
+			font-size:40px;
+			font color:white;
+		}
+		.menu_div{
+			width:100%;
+		}
+		.menu_div ul{
+			display:flex;
+			flex-direction:row;
+			justify-content:center;
+		}
+		
+		.menu_div li{
+			list-style:none;
+			height:auto;
+			line-height:auto;
+			
+		}
+		.menu_div a{
+			line-height:0;
+			color:#fff;
+			text-decoration:none;
+			padding:0 50px;
+		}
+	.nav_container{
+		width:100%;
+		height:82%;
+		background-color:red;
+	}
+		.nav{
+			float:left;
+			width:10%;
+			height:100%;
+			background-color:green;
+		}
+		.nav ul{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+		}
+		.nav li{
+			list-style:none;
+			height:30px;
+			line-height:30px;
+		}
+		.article{
+			float:right;
+			width:90%;
+			height:100%;
+			background-color:yellow;
+		}
+			.article iframe{
+				frameborder:0;
+				scrolling:no;
+				width:100%;
+				height:100%;
+				leftmargin:0;
+				topmargin:0;
+			}
+	.footer{
+		width:100%;
+		height:3%;
+		background:blue;
+	}
+	
+	</style>
+
+</head>
+<body>
+	<div id="main1" class="main1" onload="getHeight()">
+		<div class="header">
+			<div class="title_div">
+			<a class="title_font">个人000000</a>
+			</div>
+			<div class="menu_div">
+				<ul>
+					<li><a>案例收集</a></li>
+					<li><a>个人作品</a></li>
+					<li><a>个人相册</a></li>
+					<li><a>生活视频</a></li>
+					<li><a>日记文章</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav_container">
+			<div class="nav">
+				<ul>
+					<li><a href="architecture_cases/OMA.html" target="article_page">OMA</a></li>
+					<li><a href="architecture_cases/MAD.html" target="article_page">MAD</a></li>
+					<li><a>BIG</a></li>
+					<li><a>MVRDV</a></li>
+					<li><a href="architecture_cases/gad.html" target="article_page">gad</a></li>
+				</ul>
+			</div>
+			<div class="article">
+				<iframe name="article_page" frameborder="0"></iframe>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+</body>
+</html>
