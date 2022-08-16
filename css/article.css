@@ -1,0 +1,73 @@
+	div{
+		overflow:hidden;
+	}
+		.cases_box{
+			width:90%;
+			height:auto;
+			display:block;
+			align-items:center;
+			justify-content:center;
+			position:relative;
+			margin:20px;
+			margin-bottom:40px;
+			margin-left:auto;
+			margin-right:auto;
+			border-radius:20px;
+			box-shadow: 3px 3px 15px 3px #aaa;
+		}
+			.picture_box{
+				z-index:1;
+				bottom:0;
+				margin:0;
+				padding:0;
+			}
+			.picture_box img{
+				width: 100%;
+				display:block;
+			}
+			.architecture_information{
+				width:100%;
+				position:absolute;
+				bottom:0;
+				margin:0;
+			}
+				.architecture_name{
+					height:auto;
+					width:100%;
+					background-color:black;
+					z-index:2;
+					background:rgba(0,0,0,0.6);
+				}
+				.architecture_description{
+					height:auto;
+					width:100%;
+					background:rgba(0,0,0,0.6);
+					z-index:2;
+					margin-bottom:0px;
+				}
+				.architecture_name span{
+					position:relative;
+					text-align:center;
+					left: 0;
+					bottom:0;
+					font-size:36px;
+					margin-left:10px;
+					color:white;
+				}
+				.architecture_description span{
+					position:relative;
+					text-align:center;
+					left: 0;
+					top: 0;
+					font-size:18px;
+					margin-left:10px;
+					color:white;
+				}
+		
+		.cases_box img{
+			width:100%;
+			height:auto;
+		}
+		/* body { */
+			/* overflow: hidden; */
+		/* } */

@@ -13,9 +13,12 @@
 	</script>
 	
 <style type="text/css">
+	div{
+		overflow:hidden;
+	}
 	.main1{
-		width:1080px;
-		height:2200px;
+		width:1005px;
+		height:1980px;
 		background-color:white;
 	}
 	.header{
@@ -34,6 +37,7 @@
 		}
 		.menu_div{
 			width:100%;
+			height:100%;
 		}
 		.menu_div ul{
 			display:flex;
@@ -42,13 +46,13 @@
 		}
 		
 		.menu_div li{
+			display:block;
 			list-style:none;
 			height:auto;
-			line-height:auto;
-			
+			line-height:100%;
+			font-size:15px;
 		}
 		.menu_div a{
-			line-height:0;
 			color:#fff;
 			text-decoration:none;
 			padding:0 50px;
@@ -56,7 +60,7 @@
 	.nav_container{
 		width:100%;
 		height:82%;
-		background-color:red;
+		background-color:white;
 	}
 		.nav{
 			float:left;
@@ -64,41 +68,30 @@
 			height:100%;
 			background-color:gray;
 		}
-		.nav ul{
-			display:flex;
-			flex-direction:column;
-			justify-content:center;
-		}
-		.nav li{
-			list-style:none;
-			height:30px;
-			line-height:30px;
-		}
+		
 		.article{
+			margin-right:0;
 			float:right;
 			width:90%;
 			height:100%;
 			background-color:white;
 		}
-			.nav_container iframe{
-				frameborder:0;
-				scrolling:no;
-				width:100%;
-				height:100%;
-				leftmargin:0;
-				topmargin:0;
-			}
+		
 	.footer{
 		width:100%;
 		height:3%;
 		background:blue;
 	}
-	
+	iframe{
+		width:102%;
+		height:100%;
+		margin:0;
+	}
 	</style>
 
 </head>
 <body>
-	<div id="main1" class="main1" onload="getHeight()">
+	<div id="main1" class="main1">
 		<div class="header">
 			<div class="title_div">
 			<a class="title_font">个人000000</a>
@@ -113,23 +106,14 @@
 				</ul>
 			</div>
 		</div>
-		<div class="nav_container" name="left_box">
+		<div class="nav_container">
 			<div class="nav">
-				<iframe name="left_navigation" frameborder="0">
-					<div class="nav">
-						<ul>
-							<li><a href="architecture_cases/OMA.html" target="article_page">OMA</a></li>
-							<li><a href="architecture_cases/MAD.html" target="article_page">MAD</a></li>
-							<li><a>BIG</a></li>
-							<li><a>MVRDV</a></li>
-							<li><a href="architecture_cases/gad.html" target="article_page">gad</a></li>
-							<li><a href="architecture_cases/GMP.html" target="article_page">GMP</a></li>
-						</ul>
-					</div>
+				<iframe name="left_navigation" frameborder=0>
+					
 				</iframe>
 			</div>
 			<div class="article">
-				<iframe name="article_page" frameborder="0"></iframe>
+				<iframe name="article_page" frameborder=0></iframe>
 			</div>
 		</div>
 		<div class="footer"></div>
