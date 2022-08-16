@@ -13,7 +13,11 @@
 			margin-left:auto;
 			margin-right:auto;
 			border-radius:20px;
-			box-shadow: 3px 3px 15px 3px #aaa;
+			box-shadow: 4px 4px 15px 2px #aaa;  /*第一个参数是阴影的左右方向，正数为偏向右边，负数偏向左边（0不偏向）*/
+												/*第二个参数是阴影的上下方向，正数为偏向下边，负数偏向上边（0不偏向）*/
+												/*第三个参数是阴影的羽化，数值越大羽化程度就越大*/
+												/*第四个参数是阴影的的距离*/
+												/*第五个参数是阴影的颜色*/
 		}
 			.picture_box{
 				z-index:1;
