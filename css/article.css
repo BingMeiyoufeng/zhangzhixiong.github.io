@@ -28,6 +28,7 @@
 			.picture_box img{
 				width: 100%;
 				display:block;
+				height:100%;
 			}
 			.architecture_information{
 				width:100%;
@@ -54,8 +55,8 @@
 					text-align:center;
 					left: 0;
 					bottom:0;
-					font-size:36px;
-					margin-left:10px;
+					font-size:auto;
+					margin-left:5px;
 					color:white;
 				}
 				.architecture_description span{
@@ -63,8 +64,8 @@
 					text-align:center;
 					left: 0;
 					top: 0;
-					font-size:18px;
-					margin-left:10px;
+					font-size:auto;
+					margin-left:5px;
 					color:white;
 				}
 		

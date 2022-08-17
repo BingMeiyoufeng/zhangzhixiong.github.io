@@ -9,7 +9,6 @@
 			window.location.reload();
 		}
 		setTimeout('myrefresh()',100000);
-	
 	</script>
 	
 <style type="text/css">
@@ -18,77 +17,62 @@
 	}
 	.main1{
 		width:1005px;
-		height:1980px;
+		height:600px;
 		background-color:white;
 	}
-	.header{
-		width:100%;
-		height:5%;
-		background-color:#e4e4e4;
-	}
-		.title_div{
+		.header{
 			width:100%;
-			height:70%;
-			background-color:gray;
+			height:10%;
+			background-color:#e4e4e4;
 		}
-		.title_font{
-			font-size:40px;
-			font-color:white;
-		}
-		.menu_div{
-		display:block;
+			.title_div{
+				width:100%;
+				height:70%;
+				background-color:gray;
+			}
+			.title_font{
+				font-size:auto;
+				color:white;
+			}
+			.menu_div{
+				display:block;
+				width:100%;
+				height:30%;
+			}
+			.menu_div ul{
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+				line-height:auto;
+			}
+			
+			.menu_div ul li{
+				display:block;
+				list-style:none;
+				line-height:100%;
+				font-size:auto;
+			}
+			.menu_div a{
+				color:#fff;
+				text-decoration:none;
+				padding:0px 30px;
+			}
+		.container{
 			width:100%;
-			height:30%;
-		}
-		.menu_div ul{
-			display:flex;
-			flex-direction:row;
-			justify-content:center;
-			line-height:auto;
-		}
-		
-		.menu_div ul li{
-			display:block;
-			list-style:none;
-			line-height:50%;
-			font-size:200%;
-		}
-		.menu_div a{
-			color:#fff;
-			text-decoration:none;
-			padding:0px 30px;
-		}
-	.nav_container{
-		width:100%;
-		height:82%;
-		background-color:white;
-	}
-		.nav{
-			float:left;
-			width:10%;
-			height:100%;
-			background-color:#313131;
-			margin-top:20px;
-		}
-		
-		.article{
-			margin-right:0;
-			float:right;
-			width:90%;
-			height:100%;
+			height:87%;
 			background-color:white;
 		}
 		
-	.footer{
-		width:100%;
-		height:3%;
-		background:blue;
-	}
-	iframe{
-		width:102%;
-		height:100%;
-		margin:0;
-	}
+		.footer{
+			width:100%;
+			height:3%;
+			background:#e2e2e2;
+		}
+		iframe{
+			width:100%;
+			height:100%;
+			margin:0;
+		}
 	</style>
 
 </head>
@@ -96,11 +80,12 @@
 	<div id="main1" class="main1">
 		<div class="header">
 			<div class="title_div">
-			<a class="title_font">个人000000</a>
+				<a class="title_font">个人000000</a>
 			</div>
 			<div class="menu_div">
 				<ul>
-					<li><a href="architecture_cases/architecture_navigation.html" target="left_navigation">案例收集</a></li>
+					<li><a>首页</a></li>
+					<li><a href="main_body.html" target="main_body">案例收集</a></li>
 					<li><a href="daily_life/daily_life_navigation.html" target="left_navigation">生活视频</a></li>
 					<li><a>个人相册</a></li>
 					<li><a>个人作品</a></li>
@@ -108,17 +93,9 @@
 				</ul>
 			</div>
 		</div>
-		<div class="nav_container">
-			<div class="nav">
-				<iframe name="left_navigation" frameborder=0>
-					
-				</iframe>
-			</div>
-			
-			
-			<div class="article">
-				<iframe name="article_page" frameborder=0></iframe>
-			</div>
+		<div class="container">
+			<iframe name="main_body" frameborder=0 src="main_body.html">
+			</iframe>
 		</div>
 		<div class="footer"></div>
 	</div>
