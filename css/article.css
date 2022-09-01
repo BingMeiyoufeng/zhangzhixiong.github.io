@@ -1,34 +1,44 @@
 	div{
 		overflow:hidden;
 	}
+		.container1{
+			width:100%;
+			height:100%;
+			display:grid;
+			grid-gap:5px;
+			grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+			grid-template-rows:repeat(100,250px);
+		}
 		.cases_box{
-			width:90%;
-			height:auto;
+			width:100%;
+			height:100%;
 			display:block;
 			align-items:center;
 			justify-content:center;
 			position:relative;
 			margin:20px;
+			padding:0;
 			margin-bottom:40px;
 			margin-left:auto;
 			margin-right:auto;
-			border-radius:20px;
-			box-shadow: 4px 4px 15px 2px #aaa;  /*第一个参数是阴影的左右方向，正数为偏向右边，负数偏向左边（0不偏向）*/
+			border-radius:0px;
+			/* box-shadow: 4px 4px 15px 2px #aaa;  /*第一个参数是阴影的左右方向，正数为偏向右边，负数偏向左边（0不偏向）*/ */
 												/*第二个参数是阴影的上下方向，正数为偏向下边，负数偏向上边（0不偏向）*/
 												/*第三个参数是阴影的羽化，数值越大羽化程度就越大*/
 												/*第四个参数是阴影的的距离*/
 												/*第五个参数是阴影的颜色*/
 		}
 			.picture_box{
-				z-index:1;
-				bottom:0;
+				width:100%;
+				height:80%;
 				margin:0;
 				padding:0;
+				border:solid 1px;
 			}
 			.picture_box img{
-				width: 100%;
-				display:block;
-				height:100%;
+				width:100%;
+				height:auto;
+				object-fit:cover;/*保持原有尺寸比例*/
 			}
 			.architecture_information{
 				width:100%;
@@ -68,11 +78,6 @@
 					margin-left:5px;
 					color:white;
 				}
-		
-		.cases_box img{
-			width:100%;
-			height:auto;
-		}
 		/* body { */
 			/* overflow: hidden; */
 		/* } */
