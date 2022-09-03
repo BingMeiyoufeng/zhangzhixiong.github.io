@@ -1,0 +1,79 @@
+
+		.container1{
+			width:98.7%;
+			height:100%;
+			display:grid;
+			padding:10px;
+			grid-gap:10px;
+			grid-template-columns:repeat(auto-fit,minmax(20%,1fr));
+			grid-template-rows:repeat(100,18%);
+		}
+		.cases_box{
+			display:block;
+			align-items:center;
+			justify-content:center;
+			position:relative;
+			margin:0;
+			padding:0;
+			margin-left:auto;
+			margin-right:auto;
+			border-radius:0px;
+			/* box-shadow: 4px 4px 15px 2px #aaa;  /*第一个参数是阴影的左右方向，正数为偏向右边，负数偏向左边（0不偏向）*/ */
+												/*第二个参数是阴影的上下方向，正数为偏向下边，负数偏向上边（0不偏向）*/
+												/*第三个参数是阴影的羽化，数值越大羽化程度就越大*/
+												/*第四个参数是阴影的的距离*/
+												/*第五个参数是阴影的颜色*/
+		}
+			/* 图片盒子 */
+			.picture_box{
+				width:100%;
+				height:70%;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+			}
+				a:hover img{filter:alpha(Opacity=70);-moz-opacity:0.7;opacity: 0.7;}
+				.picture_box img{
+					width:100%;
+				}
+			/* 建筑信息文字盒子 */
+			.architecture_information{
+				width:100%;
+				height:30%;
+				position:absolute;
+				bottom:0;
+				margin:0;
+				padding:0;
+				background:white;
+				border-bottom:1px solid #EEEEEE;
+			}
+				.architecture_name{
+					height:auto;
+					width:100%;
+					z-index:2;
+				}
+				.architecture_description{
+					height:auto;
+					width:100%;
+					z-index:2;
+				}
+				.architecture_information p{
+					margin:0;
+					padding:0;
+					position:relative;
+					left: 0;
+					bottom:0;
+					font-size:150%;
+					color:#595959;
+				}
+				.architecture_information a{
+					margin:0;
+					padding:0;
+					position:relative;
+					text-align:center;
+					font-size:30%;
+					color:gray;
+				}
+		/* body { */
+			/* overflow: hidden; */
+		/* } */
