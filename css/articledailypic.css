@@ -1,0 +1,30 @@
+.left{
+	height:20%;
+	background:blue;
+}
+.center{
+	height:33%;
+	background:red;
+}
+.right{
+	height:15%;
+	background:pink;
+}
+.container1{
+	column-count:3;
+	/* 把container容器中的内容分为三列 */
+	column-gap:10px;
+}
+.box{
+	-webkit-column-break-inside:avoid;
+	break-inside:avoid;
+	counter-increment:item-counter;
+}
+.pic_box{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.pic_box img{
+	width:100%;
+}

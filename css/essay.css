@@ -1,0 +1,56 @@
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.container1{
+	width:100%;
+	height:100%;
+	/* position:fixed; */
+}
+.left{
+	float:left;
+	height:100%;
+	width:20%;
+	overflow:hidden;
+}
+	.left ul{
+		overflow:auto;
+		height:100%;
+		width:101%;
+		margin:0;
+		margin-left:4%;
+		padding:0;
+		list-style:none;
+	}
+	.left ul li{
+		width:100%;
+		height:auto;
+		margin:0;
+		padding:0;
+	}
+	.left ul li a{
+		display:block;
+		height:5%;
+		padding:1%;
+		margin:0;
+		text-decoration:none;
+		color:gray;
+		font-size:16%;
+	}
+.right{
+	overflow:hidden;
+	padding-top:1%;
+	float:right;
+	height:100%;
+	width:60%;
+	margin-right:20%;
+	/* border:1px solid gray; */
+}
+.right iframe{
+	overflow:hidden;
+	width:101.5%;
+	height:100%;
+	border:1px;
+}

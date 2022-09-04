@@ -5,18 +5,19 @@
 		<meta name="referrer" content="no-referrer, width=device-width, initial-scale=1">
 		<title>日记文章</title>
 		<link href="css/mainbody.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="js/botton.js"></script>
 	</head>
 	<body>
 		<div class="nav">
 			<ul>
-				<li><a href="excellentweb/renderingweb.html" target="article_page">读书笔记</a></li>
-				<li><a href="excellentweb/renderingweb.html" target="article_page">个人文章</a></li>
-				<li><a href="excellentweb/renderingweb.html" target="article_page">个人日记</a></li>
-				<li><a href="https://www.douban.com/people/157265851/?_i=2175102ks68WD6" target="_blank">豆瓣主页</a></li>
+				<li><a href="diary/essay.html" onclick="javascript:HideOrShowFont('a1')" id="a1" target="article_page">读书笔记</a></li>
+				<li><a href="diary/essay.html" onclick="javascript:HideOrShowFont('a2')" id="a2" target="article_page">个人文章</a></li>
+				<li><a href="excellentweb/renderingweb.html" onclick="javascript:HideOrShowFont('a3')" id="a3" target="article_page">个人日记</a></li>
+				<li><a href="https://www.douban.com/people/157265851/?_i=2175102ks68WD6" onclick="javascript:HideOrShowFont('a4')" id="a4" target="_blank">豆瓣主页</a></li>
 			</ul>
 		</div>
 		<div class="article">
-			<iframe name="article_page" frameborder=0 ></iframe>
+			<iframe name="article_page" frameborder=0 src="diary/diaryfirstpage.html"></iframe>
 		</div>
 	</body>
 </html>
