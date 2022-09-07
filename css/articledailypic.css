@@ -1,19 +1,16 @@
-.left{
-	height:20%;
-	background:blue;
-}
-.center{
-	height:33%;
-	background:red;
-}
-.right{
-	height:15%;
-	background:pink;
-}
+/* .left{ */
+	/* height:20%; */
+/* } */
+/* .center{ */
+	/* height:33%; */
+/* } */
+/* .right{ */
+	/* height:15%; */
+/* } */
 .container1{
 	column-count:3;
 	/* 把container容器中的内容分为三列 */
-	column-gap:10px;
+	column-gap:5px;
 }
 .box{
 	-webkit-column-break-inside:avoid;

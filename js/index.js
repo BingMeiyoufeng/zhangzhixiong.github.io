@@ -5,16 +5,15 @@ function password() {
 	if (!pass1)    
 		history.go(-1);   
 	if (pass1 == "zzx") {//设置密码
-		alert('口令正确，进行跳转');   
+		// alert('口令正确，进行跳转');   
 		window.location.href="mainpage.html";//添加你要跳转的页面
 		break;   
 	}    
 	testV+=1;   
-	var pass1 =    
-	prompt('密码错误','');   
+	var pass1 = prompt('密码错误','');   
 	}   
 	if (pass1!="password" & testV ==3)    
-	history.go(-1);   
-	return " ";   
+		history.go(-1);   
+		return " ";   
 }    
 // document.write(password()); 
