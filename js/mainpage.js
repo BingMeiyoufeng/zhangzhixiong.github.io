@@ -1,4 +1,4 @@
-function HideOrShowFont(obj) {
+function HideOrShowFont(obj) {//修改点击后top目录字体
 			for(var i = 1; i <= 13; i++){
 				var objitem = 'main'+i;
 				if (objitem == obj) {
