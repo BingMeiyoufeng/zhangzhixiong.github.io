@@ -58,11 +58,13 @@ div{
 				padding-right:0;
 				margin:0;
 				border-radius:12px 0px 0px 12px;
+				transition:all 0.7s ease;
 				/* border-bottom:1px solid white; */
 			}
 			.nav ul li a:hover{
 				background-color:white!important;
 				color:black!important;
+				transition:all 0.7s ease;
 			}
 			
 /* 内容模块 */
