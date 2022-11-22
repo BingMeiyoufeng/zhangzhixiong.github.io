@@ -83,7 +83,7 @@
 			.menu_div ul li{
 				height:100%;
 				margin:0;
-				padding:0;
+				padding:0 0.4%;
 				display:block;
 				list-style:none;
 				overflow:hidden;
@@ -98,7 +98,7 @@
 				margin:0;
 				color:#555555;
 				text-decoration:none;
-				padding:0px 8px;
+				padding:0px;
 				font-size:12px;
 				transition:color 0.6s ease;
 			}
