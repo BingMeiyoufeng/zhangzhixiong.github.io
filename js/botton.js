@@ -1,5 +1,5 @@
 function HideOrShowFont(obj) {
-			for(var i = 1; i <= 20; i++){
+			for(var i = 1; i <= 30; i++){
 				var objitem = 'a'+i;
 				if (objitem == obj) {
 					document.getElementById(objitem).style.background = "white"; 

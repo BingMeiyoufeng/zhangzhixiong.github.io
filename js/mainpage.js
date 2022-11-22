@@ -1,5 +1,5 @@
 function HideOrShowFont(obj) {//修改点击后top目录字体
-			for(var i = 1; i <= 13; i++){
+			for(var i = 1; i <= 30; i++){
 				var objitem = 'main'+i;
 				var colorlist="#6665E5";
 				if (objitem == obj) {
