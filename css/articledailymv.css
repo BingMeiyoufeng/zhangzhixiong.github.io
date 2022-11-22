@@ -10,8 +10,9 @@
 			margin:0;
 			padding:25px;
 			grid-gap:25px;
-			grid-template-columns:repeat(auto-fit,minmax(26%,32.2%));
-			grid-template-rows:repeat(auto-fit,50%);
+			/* grid-template-columns:repeat(auto-fit,minmax(26%,32.2%)); */
+			grid-template-columns:repeat(auto-fit,minmax(410px,1fr));
+			/* grid-template-rows:repeat(auto-fit,50%); */
 		}
 		.cases_box{
 			width:100%;
