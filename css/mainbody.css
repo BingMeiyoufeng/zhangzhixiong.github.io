@@ -19,7 +19,7 @@ div{
 /* 左导航栏 */
 .nav{
 	float:left;
-	width:7%;
+	width:8%;
 	height:100%;
 	margin-left:auto;
 	margin-right:auto;
@@ -49,7 +49,7 @@ div{
 			.nav ul li a{
 				width:100%;
 				height:100%;
-				font-size:100%;
+				font-size:12px;
 				display:block;
 				/* vertical-align:middle; */
 				color:#595959;
@@ -71,7 +71,7 @@ div{
 .article{
 	margin-right:0;
 	float:right;
-	width:93%;
+	width:92%;
 	height:100%;
 	background-color:white;
 }
