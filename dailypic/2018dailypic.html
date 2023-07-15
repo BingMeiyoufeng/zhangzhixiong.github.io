@@ -4,12 +4,20 @@
 	<meta charset="utf-8">
 	<meta name="referrer" content="no-referrer">
 	<title>2018pic</title>
+	<script>
+		<!-- let w = document.getElementById('container1').clientWidth; -->
+		<!-- var w=document.body.clientWidth; -->
+		var w=window.screen.width
+		const DOM = document.getElementById( "container1" );
+		let columncount=Math.floor(w/400);
+		document.documentElement.style.setProperty('--columncount', columncount);
+	</script>
 	<link href="../css/articledailypic.css" rel="stylesheet" type="text/css"/>
 	
 </head>
 
 <body>
-	<div class="container1">
+	<div class="container1" id="container1">
 			<div class="pic_box">
 				<div class="pics"><a href="https://www.gooood.cn/tencent-beijing-headquarters-china-by-oma.htm"><img src="https://oss.gooood.cn/uploads/2020/09/010-tencent-beijing-headquarters-china-by-oma.jpg" /></a></div>
 				<div class="picinformation">
